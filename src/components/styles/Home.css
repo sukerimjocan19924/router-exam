@@ -1,6 +1,28 @@
 .mySwiper {
-    height: 50rem;
+    height: 100rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.title-warp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+
+.title-warp h4 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.title-warp p {
+    font-size: 3rem;
 }

@@ -1,0 +1,33 @@
+.inner {
+    text-align: center;
+}
+
+.inner h2 {
+    margin-bottom: 7rem;
+}
+
+.post-wrap {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+.post {
+    background-color: #6B5ACD;
+    color: #fff;
+    padding: 24px;
+}
+
+.post h3 {
+    font-size: 2rem;
+}
+
+.post h4 {
+    font-size: 1rem;
+}
+
+.post h5 {
+    font-size: 12px;
+    font-weight: 200;
+}

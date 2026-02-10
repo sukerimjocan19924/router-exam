@@ -22,11 +22,13 @@ const Home = () => {
           className="mySwiper">
           {homeSlides.map(({ id, title, img, subtitle }) => (
             <SwiperSlide key={id} style={{ backgroundImage: `url(${img})` }}>
+              <div className="title-warp">
 
-              <h4>
-                {title}
-              </h4>
-              <p>{subtitle}</p>
+                <h4>
+                  {title}
+                </h4>
+                <p>{subtitle}</p>
+              </div>
             </SwiperSlide>
           ))}
 
