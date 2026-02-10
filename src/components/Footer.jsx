@@ -1,8 +1,6 @@
 import React from 'react'
 import "./styles/Footer.css"
-import {snsLinks} from '../data/sns'
-
-
+import { snsLinks } from '../data/sns'
 const Footer = () => {
   return (
     <footer>
@@ -11,9 +9,9 @@ const Footer = () => {
         <ul className='sns-links'>
           {snsLinks.map((s) => (
             <li key={s.id}>
-              <a href="s.url">
-                {s .name}
-                <img src="s.icon" alt="s.name" />
+              <a href={s.url}>
+                {s.name}
+                <img src={s.icon} alt={s.name} />
               </a>
             </li>
           ))}

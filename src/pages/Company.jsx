@@ -2,7 +2,7 @@ import React from 'react'
 
 const Company = () => {
   return (
-    <section>Company</section>
+    <div>Company</div>
   )
 }
 

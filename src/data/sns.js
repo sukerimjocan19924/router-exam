@@ -7,18 +7,18 @@ export const snsLinks = [
         id: 1,
         name: "Instargram",
         url: "https://instagram.com/your_instagram",
-        icon: icon1
+        icon:icon1
     },
     {
         id: 2,
         name: "Facebook",
         url: "https://facebook.com/your_facebook",
-        icon: icon2
+        icon:icon2
     },
     {
         id: 3,
         name: "X(Twitter)",
-        url: "https://X.com/your_x",
-        icon: icon3
+        url: "https://x.com/your_x",
+        icon:icon3
     },
 ]
